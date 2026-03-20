@@ -1,0 +1,76 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.container{
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+}
+
+.tituloimagem
+    img{ width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin-bottom: 40px;
+        }
+h1 {
+    font-size: 3rem;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: 600;
+    
+}
+
+.highlight-blue{
+    color: #1a73e8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0,1);
+}
+.descricao{
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 20px;
+    padding: 0 40px;
+}
+.blue-text{
+    color: #1a73e8;
+}
+strong{
+    color: #444;
+
+}
+.divisao{
+    border: 0;
+    border-top: 1px solide #eee;
+    margin: 40px auto 20px;
+    width: 80%;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.links a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 500;
+     transition: 0.3s;
+
+}
+.links a:hover{
+    text-decoration: underline;
+
+}
